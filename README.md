@@ -1,7 +1,6 @@
 # ARP-Watch
 ARP-Watch is a software to prevent ARP Spoofing attacks on a network.
 > **ARP Spoofing(/Poisoning)** - Maliciously crafted ARP packets can pretend to be another device in the network (by overriding the MAC address in the ARP cache).
-
 > Thus, an attacker can cause a MITM (man-in-the-middle) attack where he intercepts outgoing packets from the victim.
 
 ARP-Watch solves this problem by saving a trusted copy of the ARP cache in memory,
